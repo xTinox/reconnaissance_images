@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label paramedics
+form 01718
+scripter 017
+page 18
+row 4
+column 5
+size large

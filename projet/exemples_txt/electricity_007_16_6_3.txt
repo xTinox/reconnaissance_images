@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label electricity
+form 00716
+scripter 007
+page 16
+row 6
+column 3
+size small

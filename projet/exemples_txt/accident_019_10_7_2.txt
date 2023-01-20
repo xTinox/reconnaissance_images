@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label accident
+form 01910
+scripter 019
+page 10
+row 7
+column 2
+size large

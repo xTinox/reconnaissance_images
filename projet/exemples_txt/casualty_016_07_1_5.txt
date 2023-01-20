@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label casualty
+form 01607
+scripter 016
+page 07
+row 1
+column 5
+size small

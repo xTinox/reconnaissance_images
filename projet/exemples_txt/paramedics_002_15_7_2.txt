@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label paramedics
+form 00215
+scripter 002
+page 15
+row 7
+column 2
+size medium

@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label person
+form 01718
+scripter 017
+page 18
+row 7
+column 1
+size medium

@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label firebrigade
+form 01212
+scripter 012
+page 12
+row 7
+column 2
+size medium

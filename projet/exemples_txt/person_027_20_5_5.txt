@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label person
+form 02720
+scripter 027
+page 20
+row 5
+column 5
+size large

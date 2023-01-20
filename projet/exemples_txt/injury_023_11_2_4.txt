@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label injury
+form 02311
+scripter 023
+page 11
+row 2
+column 4
+size medium

@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label car
+form 01603
+scripter 016
+page 03
+row 5
+column 3
+size large

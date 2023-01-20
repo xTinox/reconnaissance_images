@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label person
+form 02810
+scripter 028
+page 10
+row 7
+column 2
+size medium

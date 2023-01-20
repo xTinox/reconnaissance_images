@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label police
+form 02413
+scripter 024
+page 13
+row 7
+column 2
+size medium

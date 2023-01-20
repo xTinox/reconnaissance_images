@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label person
+form 01605
+scripter 016
+page 05
+row 5
+column 5
+size small

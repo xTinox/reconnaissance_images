@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label car
+form 03306
+scripter 033
+page 06
+row 5
+column 4
+size medium

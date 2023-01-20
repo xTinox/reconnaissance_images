@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label fire
+form 00100
+scripter 001
+page 00
+row 6
+column 5
+size 

@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label fire
+form 02520
+scripter 025
+page 20
+row 5
+column 1
+size small

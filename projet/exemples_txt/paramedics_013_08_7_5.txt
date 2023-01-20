@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label paramedics
+form 01308
+scripter 013
+page 08
+row 7
+column 5
+size medium

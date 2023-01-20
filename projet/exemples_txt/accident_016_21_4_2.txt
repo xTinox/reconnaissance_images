@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label accident
+form 01621
+scripter 016
+page 21
+row 4
+column 2
+size medium

@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label gas
+form 02216
+scripter 022
+page 16
+row 7
+column 3
+size medium

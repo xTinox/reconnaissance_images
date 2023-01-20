@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label gas
+form 01601
+scripter 016
+page 01
+row 1
+column 4
+size 

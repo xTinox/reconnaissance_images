@@ -1,0 +1,8 @@
+# Projet TIV  Grp:3
+label bomb
+form 00106
+scripter 001
+page 06
+row 4
+column 5
+size small

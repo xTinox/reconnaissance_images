@@ -20,6 +20,7 @@ int moyEcart(vector<int>& liste){
 		return 0;
 	}
 	
+
 }
 
 int minimumX(vector<Rect>& rect) {

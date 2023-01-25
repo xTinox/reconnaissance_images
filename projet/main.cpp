@@ -3,6 +3,7 @@
 #include <opencv2/features2d.hpp>
 #include <string>
 #include <filesystem>
+#include "rogner.h"
 
 using namespace std;
 using namespace cv;
@@ -12,20 +13,34 @@ int main()
 {
     for (int i = 1; i < 6; i++) {
         // Charger l'image
-        Mat img = imread("exemples/casualty_000_10_5_" + to_string(i) + ".png");
-
+        Mat img = imread("exemples/accident_000_00_1_" + to_string(i) + ".png", IMREAD_GRAYSCALE);
+        //resize(img, img, Size(), 2, 2, INTER_LINEAR);
+        img = rogner(img, 250);
+        
         // Créer un objet SIFT
-        Ptr<SIFT> sift = SIFT::create(50);
+
+        //Ptr<SIFT> sift = SIFT::create(50);
+        Ptr<SiftFeatureDetector> sift = SiftFeatureDetector::create(50);
 
         // Détecter et extraire les caractéristiques de l'image
         vector<KeyPoint> keypoints;
         Mat descriptors;
         sift->detectAndCompute(img, noArray(), keypoints, descriptors);
+        
 
         // Afficher les caractéristiques extraites sur l'image
         Mat img_keypoints;
         drawKeypoints(img, keypoints, img_keypoints);
+
+        Ptr<SiftDescriptorExtractor> descriptor = SiftDescriptorExtractor::create();
+        Mat descripteurs;
+        descriptor->compute(img, keypoints, descripteurs);
+
+        Mat descript_keypoints;
+        drawKeypoints(img, keypoints, descript_keypoints, Scalar::all(1), DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
+
         imshow("Image", img_keypoints);
+        imshow("Description", descript_keypoints);
         waitKey();
     }
 

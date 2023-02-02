@@ -1,22 +1,21 @@
-#ifndef UTILS_H_
-#define UTILS_H_
+#pragma once
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
 #include <opencv2/opencv.hpp>
+#include <vector>
+#include <Windows.h>
+#include <algorithm>
 #include "opencv2/imgproc.hpp"
-using namespace std;
-using namespace cv;
+#include <filesystem>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
 
-int moyEcart(vector<int>& liste);
-int minimumX(vector<Rect>& rect);
 
-/*
-class SortFromHighestX {
-public:
-	bool operator()(Rect& r1, Rect& r2);
-};
-*/
-
-#endif /* UTILS_H_ */
+int moyEcart(std::vector<int>& liste);
+int minimumX(std::vector<cv::Rect>& rect);
+cv::Mat normaliser(cv::Mat& desc, int n);
+cv::Mat completer_de_0(cv::Mat& desc, int n);
+cv::Mat rogner(cv::Mat& img, int seuil);
+void generateARFF(const std::string& folderPath, const std::string& outputFile);
+std::vector<cv::Mat> zoning(cv::Mat& img, int nbRow, int nbCol);

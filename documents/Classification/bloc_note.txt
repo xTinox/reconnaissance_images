@@ -1,0 +1,11 @@
+Evaluation:
+
+- Présenter toutes les infos sur les diapos.
+- Bien décrire, de manière rigoureuse, le traitement
+-
+
+Delta caractéristique par 2 classes spécifiques (ex: 1 et 7)
+
+Pour un MLP, dédier un neurone de sortie supplémentaire pour le bruit(pb: majoritairement neurone bruit activé)
+
+SVM meilleur rapport rapidité et qualité

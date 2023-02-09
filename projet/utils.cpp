@@ -92,7 +92,7 @@ void generateARFF(const std::string& folderPath, const std::string& outputFile) 
             std::string className = fileName.substr(0, fileName.find("_"));
             cv::Mat img = cv::imread(folderPath + "/" + fileName, cv::IMREAD_GRAYSCALE);
             //resize(img, img, cv::Size(), 2, 2, cv::INTER_LINEAR);
-            img = rogner(img, 250);
+            img = rogner(img, 230);
             /*
             std::vector<cv::Mat> zones = zoning(img,R,C);
 
@@ -121,6 +121,7 @@ void generateARFF(const std::string& folderPath, const std::string& outputFile) 
             for (float i : hog_desc) {
                 out << i << ",";
             }
+            
             out << className << std::endl;
             
             /***
